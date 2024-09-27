@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Nellore</title>
+
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white; 
+            font-weight: bold; 
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .map {
+            width: 50%;
+            opacity: 0.8;
+        }
+
+        .main-places {
+            position: absolute;
+            top: 250px;
+            left: 55%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .top-row {
+            display: flex;
+            justify-content: center;
+        }
+
+        .top-row img {
+            width: 250px;
+            margin: 0;
+        }
+
+        .bottom-center img {
+            width: 250px;
+            margin-top: -5px;
+        }
+
+        .corner-boxes {
+            position: absolute;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            
+        }
+
+        .top-left {
+            top: 2px;
+            left: 2px;
+        }
+
+        .top-right {
+            top: 5px;
+            right: 5px;
+        }
+
+        .bottom-left {
+            bottom: 5px;
+            left: 5px;
+        }
+
+        .bottom-right {
+            bottom: 5px;
+            right: 5px;
+        }
+
+    
+        .corner-boxes img {
+            width: 100px;
+            margin-bottom: 5px;
+        }
+
+        .center-text {
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: white;
+            font-weight: bold; 
+            
+            padding: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: white; 
+            font-weight: bold; 
+            padding: 10px;
+        }
+
+        .list-section {
+            margin: 30px 0;
+            text-align: left;
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 10px;
+        }
+
+        .list-section h2 {
+            margin-bottom: 10px;
+            color: white; 
+        }
+
+        .list-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .list-section ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #fa0606; 
+        }
+
+        .list-section ul li:nth-child(2) {
+            color: #070707;
+        }
+
+        .list-section ul li:nth-child(3) {
+            color: #ffffff; 
+
+        .list-section ul li:nth-child(4) {
+            color: #00ccff; 
+        }
+
+    
+        .list-section ul li:hover {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Nellore</h1>
+        <h2>A small town in South India</h2>
+    </header>
+
+    <section class="container">
+        <img src="nellore_map.png" alt="Map of Nellore" class="map">
+
+        <div class="main-places">
+            <div class="top-row">
+                <img src="place1.jpg" alt="Main Place 1">
+                <img src="place2.jpg" alt="Main Place 2">
+            </div>
+            <div class="bottom-center">
+                <img src="place3.jpg" alt="Main Place 3">
+            </div>
+        </div>
+
+        
+        <div class="corner-boxes top-left">
+            <img src="agriculture.jpg" alt="Agriculture">
+            <p>Agriculture in Nellore</p>
+        </div>
+
+        <div class="corner-boxes top-right">
+            <img src="sriharikota.jpg" alt="Sriharikota">
+            <p>Sriharikota Rocket Launch Center</p>
+        </div>
+
+        <div class="corner-boxes bottom-left">
+            <img src="food.jpg" alt="Nellore Food">
+            <p>Famous Nellore Dishes</p>
+        </div>
+
+        <div class="corner-boxes bottom-right">
+            <img src="tourism.jpg" alt="Tourism">
+            <p>Popular Tourist Attractions</p>
+        </div>
+    </section>
+
+    <article class="center-text">
+        <p>Experience the rich culture, history, and development of Nellore, a city known for its contribution to India's agriculture, space research, and unique heritage.</p>
+    </article>
+
+    <section class="list-section">
+        <h2>Famous Places in Nellore</h2>
+        <ul>
+            <li>Ranganatha Temple</li>
+            <li>Mypadu Beach</li>
+            <li>Jonnawada Temple</li>
+        </ul>
+    </section>
+
+    <section class="list-section">
+        <h2>Major Industries in Nellore</h2>
+        <ul>
+            <li>Agriculture and Aquaculture</li>
+            <li>Textile Industry</li>
+            <li>Space Research (Sriharikota)</li>
+        </ul>
+    </section>
+
+    <section class="list-section">
+        <h2>Cultural Aspects of Nellore</h2>
+        <ul>
+            <li>Traditional Telugu Festivals</li>
+            <li>Classical Music and Dance</li>
+            <li>Nellore Cuisine (Nellore Fish Curry)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Learn more about Nellore: <a href="https://en.wikipedia.org/wiki/Nellore" target="_blank">Wikipedia - Nellore</a></p>
+    </footer>
+
+</body>
+</html>
+    
